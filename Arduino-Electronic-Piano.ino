@@ -1,5 +1,12 @@
+#define C_key 262
+#define D_key 294
+#define E_key 330
+#define F_key 349
+#define G_key 392
+#define A_key 440
+#define B_key 494
 
-int notes[] = {262, 294, 330, 349,392, 440, 494};
+int notes[] = {C_key, D_key, E_key, F_key, G_key, A_key, B_key};
 
 void setup() {
   Serial.begin(9600);
