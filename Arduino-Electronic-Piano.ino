@@ -24,25 +24,25 @@ void loop() {
   
   if (keyVal == 1023)
   {
-     freq = notes[0];
+     freq = notes[3];
   }
   else if (keyVal >= 990 && (keyVal <= 1010))
   {
-     freq = notes[1];
+     freq = notes[2];
   }
   else if (keyVal >= 505 && (keyVal <= 515))
   {
-     freq = notes[2];
+     freq = notes[1];
   }
   else if (keyVal >= 5 && (keyVal <= 10))
   {
-     freq = notes[3];
+     freq = notes[0];
   }
   
   // read from A1
   else if (SecKey == 1023)
   {
-     freq = notes[4];
+     freq = notes[6];
   }
   else if (SecKey >= 990 && (SecKey <= 1010))
   {
@@ -50,7 +50,7 @@ void loop() {
   }
   else if (SecKey >= 500 && (SecKey <= 515))
   {
-     freq = notes[6];
+     freq = notes[4];
   }
   
   
