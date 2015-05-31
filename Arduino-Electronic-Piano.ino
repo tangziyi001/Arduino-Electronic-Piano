@@ -8,8 +8,13 @@ void setup() {
 
 void loop() {
   int keyVal = analogRead(A0);
+  int SecKey = analogRead(A1);
   int freq = -1;
-  Serial.println(keyVal);
+  Serial.println("1st key Value: ");
+  Serial.print(keyVal);
+  Serial.print("   2nd key Value: ");
+  Serial.print(SecKey);
+  
   if (keyVal == 1023)
   {
      freq = notes[0];
@@ -27,6 +32,22 @@ void loop() {
      freq = notes[3];
   }
   
+  // read from A1
+  else if (SecKey == 1023)
+  {
+     freq = notes[4];
+  }
+  else if (SecKey >= 990 && (SecKey <= 1010))
+  {
+     freq = notes[5];
+  }
+  else if (SecKey >= 500 && (SecKey <= 515))
+  {
+     freq = notes[6];
+  }
+  
+  
+  // play note
   if (freq == -1)
   {
      noTone(8); 
