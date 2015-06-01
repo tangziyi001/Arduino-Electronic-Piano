@@ -1,3 +1,6 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
 #define C2_key 65
 #define D2_key 73
 #define E2_key 82
@@ -46,6 +49,8 @@ int notes6[] = {C6_key, D6_key, E6_key, F6_key, G6_key, A6_key, B6_key};
 int* notesall[] = {notes2, notes3, notes4, notes5, notes6};
 
 void setup() {
+  lcd.begin(16, 2);
+
   Serial.begin(9600);
 
 }
@@ -84,6 +89,13 @@ void loop() {
   if (res >= 816 && res < 1024){
     notearea = 6;
   }
+  
+  lcd.print("Note area is:");
+  lcd.setCursor(0,1);
+  lcd.print("C");
+  lcd.print(notearea);
+  lcd.print(" - B");
+  lcd.print(notearea);
   
   notearea = notearea - 2;
   
