@@ -50,6 +50,7 @@ int* notesall[] = {notes2, notes3, notes4, notes5, notes6};
 
 void setup() {
   lcd.begin(16, 2);
+  lcd.print("Note Area is:");
 
   Serial.begin(9600);
 
@@ -90,7 +91,6 @@ void loop() {
     notearea = 6;
   }
   
-  lcd.print("Note area is:");
   lcd.setCursor(0,1);
   lcd.print("C");
   lcd.print(notearea);
