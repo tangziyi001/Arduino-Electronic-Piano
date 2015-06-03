@@ -11,12 +11,15 @@ An electronic piano created by Arduino.
 
 ## Circuits
 The photos of the circuits are as following:
+
+> Note: The messages showing on the screen has been changed to "Sound Range is:".
+
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0375.JPG)
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0376.JPG)
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0380.JPG)
 
 
-The circuits underlying the liquid crystal displayer:
-![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0378.jpg)
+The circuits underlying the liquid crystal displayer and the piezo:
+![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0379.jpg)
 
 
