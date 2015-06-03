@@ -13,9 +13,9 @@ An electronic piano created by Arduino.
 The photos of the circuits are as following:
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0375.JPG)
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0376.JPG)
-![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0377.JPG)
+![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0378.JPG)
 
 The circuits underlying the liquid crystal displayer:
 
-![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0378.JPG)
+![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0380.JPG)
 
