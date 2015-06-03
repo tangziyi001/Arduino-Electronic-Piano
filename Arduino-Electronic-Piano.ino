@@ -78,7 +78,7 @@ int* notesall[] = {notes2, notes3, notes4, notes5, notes6};
 void setup() {
   lcd.begin(16, 2);
   lcd.setCursor(0, 0);
-  lcd.print("Note Area is:");
+  lcd.print("Sound range is:");
 
   Serial.begin(9600);
 
