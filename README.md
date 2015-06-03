@@ -20,6 +20,7 @@ The photos of the circuits are as following:
 
 
 The circuits underlying the liquid crystal displayer and the piezo:
+
 ![Image is currently not available](https://raw.githubusercontent.com/Charlespartina/Arduino-Electronic-Piano/master/img/IMG_0379.jpg)
 
 
