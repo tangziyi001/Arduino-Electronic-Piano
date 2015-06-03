@@ -1,4 +1,5 @@
 #include <LiquidCrystal.h>
+//#include <stdlib.h>
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 #define C2_key 65
@@ -73,8 +74,10 @@ int notes5[] = {C5_key, CU5_key, D5_key, DU5_key, E5_key, F5_key, FU5_key, G5_ke
 int notes6[] = {C6_key, CU6_key, D6_key, DU6_key, E6_key, F6_key, FU6_key, G6_key, GU6_key, A6_key, AU6_key, B6_key};
 int* notesall[] = {notes2, notes3, notes4, notes5, notes6};
 
+
 void setup() {
   lcd.begin(16, 2);
+  lcd.setCursor(0, 0);
   lcd.print("Note Area is:");
 
   Serial.begin(9600);
@@ -90,6 +93,7 @@ void loop() {
   // What area is activated
   int notearea = 2;
   int freq = -1;
+  char str[1];
   // C2
   
   if (res >= 0 && res < 204){
@@ -116,13 +120,23 @@ void loop() {
   if (res >= 816 && res < 1024){
     notearea = 2;
   }
+
+  // Show the new notearea
   
-//  lcd.setCursor(0,1);
+  
+ 
+  //sprintf(str, "%d", notearea);
+  lcd.setCursor(0,1);
+  lcd.print(notearea);
+ 
 //  lcd.print("C");
+//  lcd.setCursor(1,1);
 //  lcd.print(notearea);
+//  lcd.setCursor(2,1);
 //  lcd.print(" - B");
+//  lcd.setCursor(3,1);
 //  lcd.print(notearea);
-//  
+  
   notearea = notearea - 2;
   
   
