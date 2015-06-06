@@ -9,6 +9,10 @@ An electronic piano created by Arduino.
 [Ziyi Tang](https://github.com/Charlespartina) <br>
 [Yue Wang](https://github.com/percell)
 
+
+## Display
+The project display is on [Youtube](https://youtu.be/UJxT5EbblqU)
+
 ## Circuits
 The photos of the circuits are as following:
 
