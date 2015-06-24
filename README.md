@@ -1,4 +1,4 @@
-# Arduino-Electronic-Piano
+# Arduino_Electronic_Piano
 An electronic piano created by Arduino. 
 
 ## Features
